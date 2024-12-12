@@ -35,14 +35,6 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Bookmark-URL",
-      description: "A web application for saving and managing favourite URLs using React and Supabase. Features include secure user authentication, responsive design with Tailwind CSS, tagging system, and CRUD functionality for links.",
-      technologies: ["React.js", "Supabase", "Tailwind CSS", "Redux-Toolkit", "PostgreSQL"],
-      date: "Aug 2024",
-      githubLink: "https://github.com/yashKathoke/Bookmark-Url",
-      liveLink: "https://bookmark-url.vercel.app/"
-    },
-    {
       title: "iPhone 15 Landing Page",
       description: "A 3D web experience showcasing Apple products with realistic visuals and animations. Built using React and Three.js, featuring responsive design and modular, reusable codebase.",
       technologies: ["React.js", "Three.js"],
@@ -56,8 +48,17 @@ export default function Projects() {
       technologies: ["JavaScript", "GSAP", "Locomotive.js"],
       date: "Oct 2024",
       githubLink: "https://github.com/yashKathoke/Animated-Portfolio",
-      liveLink: "https://github.com/yashKathoke/Animated-Portfolio"
+      liveLink: "https://yashkathoke.github.io/Animated-Portfolio/"
     },
+    {
+      title: "Bookmark-URL",
+      description: "A web application for saving and managing favourite URLs using React and Supabase. Features include secure user authentication, responsive design with Tailwind CSS, tagging system, and CRUD functionality for links.",
+      technologies: ["React.js", "Supabase", "Tailwind CSS", "Redux-Toolkit", "PostgreSQL"],
+      date: "Aug 2024",
+      githubLink: "https://github.com/yashKathoke/Bookmark-Url",
+      liveLink: "https://bookmark-url.vercel.app/"
+    },
+
     {
       title: "Travel Buddy",
       description: "A responsive web application for sharing and exploring travel experiences. Built with PHP and MySQL, featuring CRUD operations for travel blog posts, comments, and likes/dislikes.",
