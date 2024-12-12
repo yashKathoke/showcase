@@ -73,6 +73,14 @@ export default function Projects() {
       date: "Apr 2024",
       githubLink: "https://github.com/yashKathoke/Ai-image-search",
       liveLink: "https://github.com/yashKathoke/Ai-image-search"
+    },
+    {
+      title: "Newletter Landing Page",
+      description: "In this project, I have designed a landing of a AI newletter using only HTML and CSS. I took inspiration from https://aiweekly.co/ Newsletter.",
+      technologies: ["HTML", "CSS"],
+      date: "JUL 2024",
+      githubLink: "https://github.com/yashKathoke/Newletter-Landing-Page",
+      liveLink: "https://yashkathoke.github.io/Newletter-Landing-Page/"
     }
   ]
 
