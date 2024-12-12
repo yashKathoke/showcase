@@ -39,40 +39,40 @@ export default function Projects() {
       description: "A web application for saving and managing favourite URLs using React and Supabase. Features include secure user authentication, responsive design with Tailwind CSS, tagging system, and CRUD functionality for links.",
       technologies: ["React.js", "Supabase", "Tailwind CSS", "Redux-Toolkit", "PostgreSQL"],
       date: "Aug 2024",
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/yashKathoke/Bookmark-Url",
+      liveLink: "https://bookmark-url.vercel.app/"
     },
     {
       title: "iPhone 15 Landing Page",
       description: "A 3D web experience showcasing Apple products with realistic visuals and animations. Built using React and Three.js, featuring responsive design and modular, reusable codebase.",
       technologies: ["React.js", "Three.js"],
       date: "Oct 2024",
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/yashKathoke/Apple-threejs",
+      liveLink: "https://apple-threejs-rho.vercel.app/"
     },
     {
       title: "Animated Portfolio",
       description: "A portfolio site demonstrating HTML, CSS, and JavaScript animation skills. Utilizes GSAP for animations and Locomotive.js for smooth scrolling.",
       technologies: ["JavaScript", "GSAP", "Locomotive.js"],
       date: "Oct 2024",
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/yashKathoke/Animated-Portfolio",
+      liveLink: "https://github.com/yashKathoke/Animated-Portfolio"
     },
     {
       title: "Travel Buddy",
       description: "A responsive web application for sharing and exploring travel experiences. Built with PHP and MySQL, featuring CRUD operations for travel blog posts, comments, and likes/dislikes.",
       technologies: ["PHP", "MySQL", "Bootstrap"],
       date: "Sep 2024",
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/yashKathoke/Travel-Blog-PHP",
+      liveLink: "https://github.com/yashKathoke/Travel-Blog-PHP"
     },
     {
       title: "AI Image Search",
       description: "An application that processes images to generate semantic descriptions using a pre-trained model. Allows users to upload, process, and search through images based on extracted semantics.",
       technologies: ["Python", "Hugging Face"],
       date: "Apr 2024",
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/yashKathoke/Ai-image-search",
+      liveLink: "https://github.com/yashKathoke/Ai-image-search"
     }
   ]
 
