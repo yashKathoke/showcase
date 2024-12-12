@@ -5,6 +5,7 @@ import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import { EnvelopeIcon, LockClosedIcon, UserIcon } from '@heroicons/react/24/solid'
 import { FcGoogle } from 'react-icons/fc'
+import { FaFacebook } from 'react-icons/fa'
 
 export default function SignUp() {
   const [name, setName] = useState('')
@@ -51,6 +52,9 @@ export default function SignUp() {
 
   const handleGoogleSignUp = () => {
     signIn('google', { callbackUrl: '/' })
+  }
+  const handleFacebookSignUp = () => {
+    signIn('facebook', { callbackUrl: '/' })
   }
 
   return (
@@ -155,6 +159,13 @@ export default function SignUp() {
               >
                 <FcGoogle className="h-5 w-5 mr-2" />
                 Sign up with Google
+              </button>
+              <button
+                onClick={handleFacebookSignUp}
+                className="w-full mt-3 flex items-center justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                <FaFacebook className="h-5 w-5 mr-2" />
+                Sign up with Facebook
               </button>
             </div>
           </div>
